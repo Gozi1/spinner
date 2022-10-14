@@ -1,5 +1,4 @@
-
-const spinnerAnimations = ['\r|   ','\r/   ','\r-   ','\r\\   ']
+const spinnerAnimations = ['\r|   ','\r/   ','\r-   ','\r\\   '];
 const spinnerAnimation = function(animations,delay,loops,initialDelay){
   if(loops >= 0){
     let index = (loops % animations.length); 
